@@ -18,6 +18,33 @@ button{
   border-color: yellow;
 }
 
-body{
-  width: 100%;
+@media screen and (max-width: 1200px){
+  body{
+    width: 1200px;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 998px){
+  body{
+    width: 998px;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  body{
+    width: 768px;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 576px){
+  body{
+    width: 576px;
+    height: 100%;
+  }
 }
